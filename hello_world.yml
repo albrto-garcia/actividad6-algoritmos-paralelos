@@ -1,0 +1,10 @@
+---
+# Playbook para imprimir un hola mundo.
+- name: Echo 
+  hosts: 127.0.0.1
+  connection: local
+
+  tasks:
+  - name: Print debug message
+    debug:
+      msg: ¡Hola mundo!
