@@ -1,4 +1,3 @@
----
 # Playbook para imprimir un hola mundo.
 - name: Echo 
   hosts: 127.0.0.1
